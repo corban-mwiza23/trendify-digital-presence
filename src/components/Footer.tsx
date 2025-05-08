@@ -95,6 +95,21 @@ const Footer = () => {
           </div>
         </div>
         
+        {/* Map Section */}
+        <div className="mt-10 border-t border-white/10 pt-10">
+          <h3 className="text-xl font-bold mb-4 text-center">Find Us</h3>
+          <div className="w-full h-64 rounded-lg overflow-hidden">
+            <iframe
+              title="TechTrends Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63799.41739265706!2d30.03952216759042!3d-1.944119717328353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0xf32b36a5411c0167!2sKigali%2C%20Rwanda!5e0!3m2!1sen!2sus!4v1683892188555!5m2!1sen!2sus"
+              className="w-full h-full border-0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        
         <div className="border-t border-white/10 mt-10 pt-6 text-center">
           <p className="text-gray-300">
             &copy; {currentYear} TechTrends Ltd. All rights reserved.
